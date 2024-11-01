@@ -10,6 +10,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Users from './components/Users/Users.jsx'
 
 const router =  createBrowserRouter([
 
@@ -24,6 +25,10 @@ const router =  createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+path: '/users',
+element: <Users></Users>
       }
     ]
   },
