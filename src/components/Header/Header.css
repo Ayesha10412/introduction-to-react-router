@@ -12,3 +12,9 @@ nav a{
     border-radius: 10px;
     border: 2px solid grey;
 }
+.postDetail{
+    background-color: plum;
+    border-radius: 10px;
+    border: 2px solid white ;
+    padding: 15px;
+}
