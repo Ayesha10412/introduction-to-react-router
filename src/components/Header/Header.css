@@ -18,3 +18,7 @@ nav a{
     border: 2px solid white ;
     padding: 15px;
 }
+
+nav a.active{
+    text-decoration: underline;
+}

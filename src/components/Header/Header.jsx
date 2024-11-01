@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from 'react-router-dom';
+import { Link, NavLink} from 'react-router-dom';
 import './Header.css';
 const Header = () => {
     // const user = useLoaderData();
@@ -10,9 +10,9 @@ const Header = () => {
             <nav>
                 <Link to="/home">Home</Link>
                 <Link to="/about">About</Link>
+<NavLink to="/users">Users</NavLink>
+<NavLink to="/posts">Posts</NavLink>
                 <Link to="/contact">Contact Us</Link>
-                <Link to="/users">Users</Link>
-         <Link to="/posts" >Posts</Link>
 {/* <h1> {username} </h1> */}
 
             </nav>
